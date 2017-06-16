@@ -21,6 +21,7 @@ app.get('/admin/main',function(req,res){
       title:"网站主页"   
     })
 })
+
 app.get('/admin/movie',function(req,res){
     res.render('admin',{
       title:"李辉 后台录入页"   
